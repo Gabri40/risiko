@@ -1,9 +1,6 @@
 .vscode/
 .idea/
 
-*.log
-*.swp
-.DS_Store
-.envRSK
 
-__pycache__
+.envRSK/
+__pycache__/
