@@ -1,4 +1,15 @@
-# RiskGame
+# RISIKO
+
+Very basic terminal implementation of the game Risiko.
+
+Missing:
+
+- Distinct Objectives
+- Cards
+- Reinforcement on multiple territories
+- ... and probably more
+
+## RiskGame
 
 The `RiskGame` class represents a game of Risk.
 
