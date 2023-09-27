@@ -2,11 +2,12 @@
 
 Very basic terminal implementation of the game Risiko.
 
-Run main.py to play. It's best to have map open on the side.
 
 Missing:
 
+- Full Autocomplete for Territories DONE
+- Form to stop Attack after each roll DONE
 - Distinct Objectives
 - Cards
-- Reinforcement on multiple territories
-- ... and probably more
+- Reinforcement on multiple territories DONE
+- Territories not at random at the start (maybe, too long to test)

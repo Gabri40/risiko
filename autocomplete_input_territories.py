@@ -33,7 +33,14 @@ def input_with_autocomplete(prompt, options=None):
     readline.set_completer(completer)
     readline.parse_and_bind("tab: complete")
 
-    return input(prompt)
+    while True:
+        user_input = input(prompt)
+        if user_input.title() in (
+            opt.title() for opt in (options or territory_options)
+        ):
+            return user_input
+        else:
+            print("Invalid")
 
 
 # Default list of territory options

@@ -30,7 +30,4 @@ def attack_roll(attackers, defenders):
 
 
 
-# # Test 5: Maximum number of dice for attacker and defender
-# for i in range(20):
-#     print("\n5v3 test")
-#     attackers, defenders = attack_roll(5, 3)
+
